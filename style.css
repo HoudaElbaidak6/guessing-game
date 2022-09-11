@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "spacemono";
+  src: url(fonts/spaceMono/SpaceMono-Regular.ttf);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 80vh;
+  background-color: black;
+  color: white;
+  font-family: "spacemono";
+}
+
+#levels {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  font-size: 1.1em;
+  font-weight: 500;
+  gap: 10px;
+}
+
+#levels > label {
+  font-weight: 900;
+}
+
+#restart {
+  display: none;
+}
+
+#levelP {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+  margin: 30px 0px;
+}
+
+#levelP > p {
+  margin: 0px;
+  font-size: 1.3em;
+  color: darkred;
+  font-weight: 800;
+}
+
+#inputField {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+#flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6em;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+button {
+  padding: 12px 35px;
+  background-color: rgb(184, 190, 190);
+  box-sizing: border-box;
+  font-size: 1em;
+  font-weight: 700;
+  font-family: "spacemono";
+  cursor: pointer;
+}
+
+#input {
+  padding: 10px 15px;
+  font-family: "spacemono";
+}
+#input:focus {
+  border: 1px solid rgb(184, 190, 190);
+  outline: 1px solid rgb(184, 190, 190);
+}
+
+#results{
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 1em;
+}
