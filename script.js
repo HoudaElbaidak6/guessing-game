@@ -1,4 +1,4 @@
-const radioButtons = document.querySelectorAll('input[name="lvl"]');
+let radioButtons = document.querySelectorAll('input[name="lvl"]');
 let instructions = document.getElementById("instructions");
 let button = document.querySelector("button");
 let essays = document.getElementById("chance");
@@ -38,6 +38,7 @@ function Restart() {
   selection();
   document.getElementById("gamArea").style.display = "block";
   document.getElementById("restart").style.display = "none";
+  location.reload();
 }
 
 function guessing() {
